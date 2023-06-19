@@ -29,8 +29,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseAuthentication();
 app.UseRouting();
+app.UseAuthentication();
 
 app.MapControllers();
 
